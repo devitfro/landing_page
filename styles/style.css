@@ -1,0 +1,244 @@
+body {
+    width: 1440px;
+    background: #FFFFFF;
+    font-family: 'Arapey', serif;
+    box-sizing: border-box;
+}
+/* Section 1 */
+.section-header {
+    background: #ffffff;
+}
+.first-header {
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: start;
+    color: #9DB0D1;
+    margin: 100px 340px 50px 339px;
+}
+
+.header-descr {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 0 208px 50px 208px;
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+}
+
+.bttn-start {
+    width: 267px;
+    height: 80px;
+    background: #EBAC87;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+/* List */
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    align-items: center;
+}
+img {
+    margin-right: 15px;
+}
+
+/* Section 2 CLOUDS*/
+.section-clouds {
+    background: url(../image/cloud.png) no-repeat, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+    padding: 250px 120px 100px 120px;
+}
+
+.second-header {
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+
+}
+
+/* Section 3 MOUNTAINS*/
+.section-mountains {
+    background: #87C6EB url(../image/big-mountain.png) right bottom no-repeat;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    width: 350px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 75px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.circle-1 {
+    background: rgba(235, 172, 135, 0.4);
+}
+
+.circle-2 {
+    background: rgba(235, 172, 135, 0.6);
+}
+
+.circle-3 {
+    background: #EBAC87;
+}
+
+.number {
+    border-radius: 50%;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.picture {
+    width: 310px;
+    background-color: #EBAC87;
+    margin: 0 auto;
+    display: block;
+}
+
+.pictr-descr {
+    width: 260px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: start;
+}
+
+.mark {
+    font-weight: bold;
+}
+/* Block h3 */
+.block {
+    width: 600px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.third-header {
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.third-header-descr {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.flex {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bttn-checkin {
+    width: 220px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Arapey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EBAC87;
+}
+
+.circle-questions {
+    width: 80px;
+    height: 80px;
+    background: #EBAC87;
+    border-radius: 50%;
+    position: relative;
+}
+.sign-quest {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 4px;
+    left: 24px;
+}
+
+/* Footer */
+.footer {
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.web-list {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
